@@ -1,0 +1,266 @@
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #header {
+    background: linear-gradient(to right, #1C3A3B, #1C4040);
+    position: fixed;
+    width: 100%;
+    max-width: 2440px;
+    left: 0;
+    padding: 6px 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  #header div {
+    margin-left: 4%;
+  }
+
+  #header div div nav ul li {
+    margin-right: 100px;
+  }
+
+  section div div {
+    margin-left: 10%;
+  }
+  section div div #btn1, #btn2 {
+    margin-top: 10px;
+  }
+
+  section {
+    padding: 120px 0;
+    width: 100%;
+  }
+
+  section div div #btn1
+   {
+    background-color:#0D9488;
+    color:#ffffff;
+    border: none;
+    font-size: 21px; 
+    padding: 3px; 
+  }
+
+  section div div #btn1:hover {
+    background-color:#0F766E;
+  }
+
+  section div div #btn2 {
+    background-color:#F4F4F5;
+    color:#49494C;
+    border: none;
+    font-size: 21px; 
+    padding: 2px; 
+  }
+
+  section div div #btn2:hover {
+    background-color:#E4E4E7;
+  }
+
+  #header div div nav ul li {
+    color:#1AA697;
+    padding-bottom: 1px;
+    text-decoration: none;
+    display: inline-block;
+    transform: translate(0px, 25%);
+    border-bottom: solid 3px;
+  }
+
+  footer {
+    padding-top: 7%;
+    width: 100%;
+    background-color: #222222;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1D3D3D, #1D4544);
+  }
+
+  #fir {
+    color:white; 
+    margin-left: 10%; 
+    margin-top: 4%; 
+    font-size: 52px;
+  }
+
+  #sec {
+    color:#7B6CC8;
+    margin-left:10%; 
+    font-size: 55px;
+  }
+
+  section div p {
+    color:white; 
+    margin-left:10%; 
+    margin-top: 1%; 
+    font-size: 20px;
+  }
+
+  #version {
+    color:white; 
+    margin-left:10%; 
+    font-size: 18px; 
+    margin-top: 1.5%;
+  }
+  }
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #header div div nav ul li {
+    margin-right: 100px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #header div div nav ul li {
+    margin-right: 100px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #header div div nav ul li {
+    margin-right: 100px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  #header div div nav ul li {
+    margin-right: 80px;
+  }
+
+  #fir {
+    color:white; 
+    margin-left: 10%; 
+    margin-top: 4%; 
+    font-size: 29px;
+  }
+
+  #sec {
+    color:#7B6CC8;
+    margin-left:10%; 
+    font-size: 28px;
+  }
+}
+
+/* standart */
+
+#header {
+background: linear-gradient(to right, #1C3A3B, #1C4040);
+position: fixed;
+width: 100%;
+max-width: 2440px;
+left: 0;
+padding: 7px 0;
+top: 0;
+right: 0;
+transition: all 0.5s;
+z-index: 997;
+}
+#header div {
+  margin-left: 4%;
+}
+
+.head-but {
+margin-right: 850px;
+}
+
+.btns {
+  margin-left: 10%;
+}
+.btwbtn {
+margin-top: 1%;
+}
+
+.nav-menu, .nav-menu * {
+list-style: none;
+}
+
+.section-gap {
+padding: 120px 0;
+width: 100%;
+}
+
+
+.mybtn {
+background-color:#0D9488;
+color:#ffffff;
+border: none;
+font-size: 21px; 
+padding: 3px; 
+}
+
+.mybtn:hover {
+background-color:#0F766E;
+}
+
+.copybtn {
+background-color:#F4F4F5;
+color:#49494C;
+border: none;
+font-size: 21px; 
+padding: 2px; 
+}
+
+.copybtn:hover {
+background-color:#E4E4E7;
+}
+
+.underline {
+color:#1AA697;
+padding-bottom: 1px;
+text-decoration: none;
+display: inline-block;
+transform: translate(0px, 25%);
+border-bottom: solid 3px;
+}
+
+.footer-area {
+padding-top: 7%;
+width: 100%;
+background-color: #222222;
+}
+
+.post-area {
+width: 100%;
+height: 100%;
+background: linear-gradient(to right, #1D3D3D, #1D4544);
+}
+
+.firstr {
+color:white; 
+margin-left: 10%; 
+margin-top: 4%; 
+font-size: 52px;
+}
+
+.secstr {
+color:#7B6CC8;
+margin-left:10%; 
+font-size: 55px;
+}
+
+.info {
+color:white; 
+margin-left:10%; 
+margin-top: 1%; 
+font-size: 20px;
+}
+
+.version {
+color:white; 
+margin-left:10%; 
+font-size: 18px; 
+margin-top: 1.5%;
+padding-bottom: 6px;
+}
+
+}
